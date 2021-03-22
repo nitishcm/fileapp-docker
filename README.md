@@ -16,7 +16,7 @@ Option 1 <br />
 Option 2 
 Run below commands to build and run docker image <br />
 1.Docker Hub login 
-	docker login -u <username>
+	docker login -u <user-name>
 <br />	
 2. Build image
 	docker build -t fileapp-image:latest .
