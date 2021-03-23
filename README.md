@@ -8,7 +8,7 @@ Pre requisite <br />
 	
 Option 1 <br />
 1. Run shell script docker.sh which will take docker hub username and password as parameters. It will then build the docker image as fileapp-image:latest and run the image on port 8080 <br />
-	./docker.sh <usernam> <password>
+	./docker.sh username password
 	
 	To access API URL http://localhost:8080/fileUpload
 	
@@ -16,7 +16,7 @@ Option 1 <br />
 Option 2 
 Run below commands to build and run docker image <br />
 1.Docker Hub login 
-	docker login -u <user-name>
+	docker login -u username
 <br />	
 2. Build image
 	docker build -t fileapp-image:latest .
